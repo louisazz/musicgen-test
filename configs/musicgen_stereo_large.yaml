@@ -1,0 +1,19 @@
+model:
+  variant: stereo-large   # facebook/musicgen-stereo-large (3.3B, stereo)
+  device: auto             # auto|cuda|mps|cpu
+  backend: auto            # auto|audiocraft|transformers 
+generation:
+  use_sampling: true
+  top_k: 250
+  top_p: 0.0
+  temperature: 1.0
+  cfg_coef: 3.0
+  duration_default: 30.0
+  num_samples_per_seed: 1
+output:
+  out_root: runs
+  run_name: stereo_large_v2_dur30_cfg3
+  save_raw_wav: true
+  save_loudness_wav: true
+  save_spectrogram: true
+  spectrogram_type: mel

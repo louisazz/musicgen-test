@@ -1,0 +1,14 @@
+# === Core ===
+torch
+torchaudio
+transformers         
+soundfile            
+numpy
+tqdm
+pyyaml                
+
+# === Visualization: 后期eval_basic.py用 ===
+matplotlib            
+pandas                
+
+

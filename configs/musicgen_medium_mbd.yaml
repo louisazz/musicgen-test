@@ -1,0 +1,20 @@
+model:
+  variant: medium            # facebook/musicgen-medium (1.5B, mono) — fits T4 16GB with MBD
+  device: auto
+  backend: audiocraft
+generation:
+  use_sampling: true
+  top_k: 250
+  top_p: 0.0
+  temperature: 1.0
+  cfg_coef: 3.0
+  duration_default: 30.0
+  num_samples_per_seed: 1
+  use_mbd: true
+output:
+  out_root: runs
+  run_name: medium_mbd_v2_dur30_cfg3
+  save_raw_wav: true
+  save_loudness_wav: true
+  save_spectrogram: true
+  spectrogram_type: mel
