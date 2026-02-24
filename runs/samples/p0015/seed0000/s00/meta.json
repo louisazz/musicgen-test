@@ -1,0 +1,51 @@
+{
+  "prompt_id": "p0015",
+  "sample_id": "p0015_seed0000_s00",
+  "prompt": "A bright pop backing track with strummed acoustic guitar playing a classic four-chord pop progression. A solid bass guitar and steady drums drive the rhythm forward while an airy synth pad adds warmth in the background. The melody is catchy and singable, with an optimistic and radio-friendly feel. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0015",
+    "pair_id": "pair08",
+    "variant": "A",
+    "control_axis": "pitch",
+    "genre": "pop instrumental",
+    "bpm": 110,
+    "meter": "4/4",
+    "key": "C major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "bass",
+      "drums",
+      "synth pad"
+    ],
+    "control_delta": "Harmony: pop progression I-V-vi-IV in C major",
+    "prompt": "A bright pop backing track with strummed acoustic guitar playing a classic four-chord pop progression. A solid bass guitar and steady drums drive the rhythm forward while an airy synth pad adds warmth in the background. The melody is catchy and singable, with an optimistic and radio-friendly feel. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0015/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0015/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0015/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0015/seed0000/s00/spec_mel.png"
+  }
+}
