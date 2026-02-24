@@ -1,6 +1,4 @@
-# SHAYI - Task 5: MusicGen Baseline Inference
-
-Reproducible MusicGen inference pipeline with unified output format for downstream evaluation.
+# MusicGen Baseline Inference
 
 ## Model Configurations
 
