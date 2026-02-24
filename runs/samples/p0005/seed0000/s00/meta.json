@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0005",
+  "sample_id": "p0005_seed0000_s00",
+  "prompt": "A cinematic underscore with a warm string ensemble swelling gently over bright major-key harmonies. Delicate piano arpeggios rise and fall while soft percussion provides a subtle pulse. The mood is uplifting and hopeful, building toward an inspiring resolution. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0005",
+    "pair_id": "pair03",
+    "variant": "A",
+    "control_axis": "pitch",
+    "genre": "cinematic",
+    "bpm": 90,
+    "meter": "4/4",
+    "key": "C major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "string ensemble",
+      "piano",
+      "soft percussion"
+    ],
+    "control_delta": "Pitch: bright major harmony and uplifting cadence",
+    "prompt": "A cinematic underscore with a warm string ensemble swelling gently over bright major-key harmonies. Delicate piano arpeggios rise and fall while soft percussion provides a subtle pulse. The mood is uplifting and hopeful, building toward an inspiring resolution. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0005/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0005/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0005/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0005/seed0000/s00/spec_mel.png"
+  }
+}
