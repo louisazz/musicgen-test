@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0011",
+  "sample_id": "p0011_seed0002_s00",
+  "prompt": "A dramatic orchestral cue with sweeping string sections building intensity. French horns swell with heroic brass fanfares while deep timpani strikes punctuate the rhythm. The sound is grand and cinematic, like the score to an epic film battle scene, with natural concert hall reverb. Instrumental, no vocals.",
+  "seed": 2,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0011",
+    "pair_id": "pair06",
+    "variant": "A",
+    "control_axis": "timbre",
+    "genre": "orchestral",
+    "bpm": 100,
+    "meter": "4/4",
+    "key": "D minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "string orchestra",
+      "French horn",
+      "timpani"
+    ],
+    "control_delta": "Timbre: acoustic orchestral palette",
+    "prompt": "A dramatic orchestral cue with sweeping string sections building intensity. French horns swell with heroic brass fanfares while deep timpani strikes punctuate the rhythm. The sound is grand and cinematic, like the score to an epic film battle scene, with natural concert hall reverb. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0011/seed0002/s00/raw.wav",
+    "mbd_wav": "samples/p0011/seed0002/s00/mbd.wav",
+    "loudness_wav": "samples/p0011/seed0002/s00/loudness.wav",
+    "spec_png": "samples/p0011/seed0002/s00/spec_mel.png"
+  }
+}
