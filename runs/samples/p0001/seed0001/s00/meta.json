@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0001",
+  "sample_id": "p0001_seed0001_s00",
+  "prompt": "A deep house track with a relentless four-on-the-floor kick and tight offbeat hi-hats from a drum machine. A warm analog synth bass pulses underneath while bright plucky synth chords shimmer on top, creating a hypnotic late-night club groove. Instrumental, no vocals, clean modern production.",
+  "seed": 1,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0001",
+    "pair_id": "pair01",
+    "variant": "A",
+    "control_axis": "timbre",
+    "genre": "house",
+    "bpm": 124,
+    "meter": "4/4",
+    "key": "A minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "analog synth bass",
+      "drum machine",
+      "bright plucks"
+    ],
+    "control_delta": "Base timbre: analog synth bass + drum machine",
+    "prompt": "A deep house track with a relentless four-on-the-floor kick and tight offbeat hi-hats from a drum machine. A warm analog synth bass pulses underneath while bright plucky synth chords shimmer on top, creating a hypnotic late-night club groove. Instrumental, no vocals, clean modern production."
+  },
+  "paths": {
+    "raw_wav": "samples/p0001/seed0001/s00/raw.wav",
+    "mbd_wav": "samples/p0001/seed0001/s00/mbd.wav",
+    "loudness_wav": "samples/p0001/seed0001/s00/loudness.wav",
+    "spec_png": "samples/p0001/seed0001/s00/spec_mel.png"
+  }
+}
