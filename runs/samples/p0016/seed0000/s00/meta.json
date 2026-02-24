@@ -1,0 +1,51 @@
+{
+  "prompt_id": "p0016",
+  "sample_id": "p0016_seed0000_s00",
+  "prompt": "A sophisticated pop-jazz backing track with acoustic guitar and a warm electric piano trading jazzy chord voicings built on ii-V-I cadences. The bass guitar and steady drums keep the same tempo and energy, but the harmony is richer and more colorful with extended chords and chromatic movement. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0016",
+    "pair_id": "pair08",
+    "variant": "B",
+    "control_axis": "pitch",
+    "genre": "pop-jazz instrumental",
+    "bpm": 110,
+    "meter": "4/4",
+    "key": "C major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "acoustic guitar",
+      "bass",
+      "drums",
+      "electric piano"
+    ],
+    "control_delta": "Harmony: replace pop progression with ii-V-I jazz cadence flavor",
+    "prompt": "A sophisticated pop-jazz backing track with acoustic guitar and a warm electric piano trading jazzy chord voicings built on ii-V-I cadences. The bass guitar and steady drums keep the same tempo and energy, but the harmony is richer and more colorful with extended chords and chromatic movement. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0016/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0016/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0016/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0016/seed0000/s00/spec_mel.png"
+  }
+}
