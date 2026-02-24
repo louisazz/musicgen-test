@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0022",
+  "sample_id": "p0022_seed0000_s00",
+  "prompt": "A rock track with a heavily distorted electric guitar playing aggressive power chords and gritty riffs through a cranked-up amp. A solid bass guitar holds down the root notes while a live drum kit drives the beat with a steady kick and snappy snare. The tone is raw and saturated, thick with overdrive and feedback. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0022",
+    "pair_id": "pair11",
+    "variant": "B",
+    "control_axis": "timbre",
+    "genre": "rock",
+    "bpm": 120,
+    "meter": "4/4",
+    "key": "E minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "distorted electric guitar",
+      "bass guitar",
+      "drum kit"
+    ],
+    "control_delta": "Timbre: heavy saturated distortion on guitar",
+    "prompt": "A rock track with a heavily distorted electric guitar playing aggressive power chords and gritty riffs through a cranked-up amp. A solid bass guitar holds down the root notes while a live drum kit drives the beat with a steady kick and snappy snare. The tone is raw and saturated, thick with overdrive and feedback. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0022/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0022/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0022/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0022/seed0000/s00/spec_mel.png"
+  }
+}
