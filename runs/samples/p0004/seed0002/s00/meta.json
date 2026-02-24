@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0004",
+  "sample_id": "p0004_seed0002_s00",
+  "prompt": "An intimate jazz piano trio playing in a small club. The piano comps mellow chords over a medium swing feel with a gentle ride cymbal pattern. The upright bass walks through the changes while the drummer transitions from brushes to ride, adding a lilting, bouncy groove. Instrumental, no vocals.",
+  "seed": 2,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0004",
+    "pair_id": "pair02",
+    "variant": "B",
+    "control_axis": "rhythm",
+    "genre": "jazz trio",
+    "bpm": 120,
+    "meter": "4/4",
+    "key": "F major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "upright bass",
+      "brush drums",
+      "piano"
+    ],
+    "control_delta": "Rhythm: medium swing feel with ride cymbal",
+    "prompt": "An intimate jazz piano trio playing in a small club. The piano comps mellow chords over a medium swing feel with a gentle ride cymbal pattern. The upright bass walks through the changes while the drummer transitions from brushes to ride, adding a lilting, bouncy groove. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0004/seed0002/s00/raw.wav",
+    "mbd_wav": "samples/p0004/seed0002/s00/mbd.wav",
+    "loudness_wav": "samples/p0004/seed0002/s00/loudness.wav",
+    "spec_png": "samples/p0004/seed0002/s00/spec_mel.png"
+  }
+}
