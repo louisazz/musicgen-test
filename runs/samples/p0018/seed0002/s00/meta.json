@@ -1,0 +1,51 @@
+{
+  "prompt_id": "p0018",
+  "sample_id": "p0018_seed0002_s00",
+  "prompt": "An infectious afrobeat groove with hand-played congas and shakers weaving a complex three-against-two polyrhythmic pattern. A syncopated clean electric guitar riff dances over a deep steady bassline. The rhythm is layered and intricate, with overlapping accents creating a mesmerizing cross-rhythm feel. Instrumental, no vocals.",
+  "seed": 2,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0018",
+    "pair_id": "pair09",
+    "variant": "B",
+    "control_axis": "rhythm",
+    "genre": "afrobeat",
+    "bpm": 105,
+    "meter": "4/4",
+    "key": "A minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "congas",
+      "shakers",
+      "bass",
+      "guitar"
+    ],
+    "control_delta": "Rhythm: add 3:2 polyrhythmic percussion layer (same tempo/key)",
+    "prompt": "An infectious afrobeat groove with hand-played congas and shakers weaving a complex three-against-two polyrhythmic pattern. A syncopated clean electric guitar riff dances over a deep steady bassline. The rhythm is layered and intricate, with overlapping accents creating a mesmerizing cross-rhythm feel. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0018/seed0002/s00/raw.wav",
+    "mbd_wav": "samples/p0018/seed0002/s00/mbd.wav",
+    "loudness_wav": "samples/p0018/seed0002/s00/loudness.wav",
+    "spec_png": "samples/p0018/seed0002/s00/spec_mel.png"
+  }
+}
