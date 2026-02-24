@@ -1,0 +1,51 @@
+{
+  "prompt_id": "p0007",
+  "sample_id": "p0007_seed0001_s00",
+  "prompt": "A driving electronic club track with a pounding four-on-the-floor kick and sharp claps on the backbeat. Steady mechanical hi-hats lock in the groove while a wide atmospheric synth pad fills the stereo field. A simple catchy synth hook repeats over the top. Energetic and relentless. Instrumental, no vocals.",
+  "seed": 1,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0007",
+    "pair_id": "pair04",
+    "variant": "A",
+    "control_axis": "rhythm",
+    "genre": "electronic",
+    "bpm": 128,
+    "meter": "4/4",
+    "key": "E minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "kick",
+      "clap",
+      "synth pad",
+      "synth lead"
+    ],
+    "control_delta": "Rhythm: four-on-the-floor club pattern",
+    "prompt": "A driving electronic club track with a pounding four-on-the-floor kick and sharp claps on the backbeat. Steady mechanical hi-hats lock in the groove while a wide atmospheric synth pad fills the stereo field. A simple catchy synth hook repeats over the top. Energetic and relentless. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0007/seed0001/s00/raw.wav",
+    "mbd_wav": "samples/p0007/seed0001/s00/mbd.wav",
+    "loudness_wav": "samples/p0007/seed0001/s00/loudness.wav",
+    "spec_png": "samples/p0007/seed0001/s00/spec_mel.png"
+  }
+}
