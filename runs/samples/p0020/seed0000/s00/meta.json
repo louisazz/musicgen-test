@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0020",
+  "sample_id": "p0020_seed0000_s00",
+  "prompt": "An 80s synthwave track with a dark heavily-filtered synth lead playing a subdued melody over a punchy analog synth bass. A gated reverb snare cracks on the backbeat with that classic 80s tail. The high frequencies are rolled off and muffled, giving everything a warm murky character, like a worn VHS tape. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0020",
+    "pair_id": "pair10",
+    "variant": "B",
+    "control_axis": "timbre",
+    "genre": "synthwave",
+    "bpm": 100,
+    "meter": "4/4",
+    "key": "E major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "dark filtered lead",
+      "gated reverb snare",
+      "synth bass"
+    ],
+    "control_delta": "Timbre: darker filtered synths (rolled-off highs)",
+    "prompt": "An 80s synthwave track with a dark heavily-filtered synth lead playing a subdued melody over a punchy analog synth bass. A gated reverb snare cracks on the backbeat with that classic 80s tail. The high frequencies are rolled off and muffled, giving everything a warm murky character, like a worn VHS tape. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0020/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0020/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0020/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0020/seed0000/s00/spec_mel.png"
+  }
+}
