@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0019",
+  "sample_id": "p0019_seed0001_s00",
+  "prompt": "An 80s synthwave track with a bright cutting sawtooth lead melody soaring over a punchy analog synth bass. A gated reverb snare cracks on the backbeat, drenched in that iconic 80s ambience. The high end sparkles with shimmering arpeggios and the overall vibe is nostalgic and neon-lit. Instrumental, no vocals.",
+  "seed": 1,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0019",
+    "pair_id": "pair10",
+    "variant": "A",
+    "control_axis": "timbre",
+    "genre": "synthwave",
+    "bpm": 100,
+    "meter": "4/4",
+    "key": "E major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "bright saw lead",
+      "gated reverb snare",
+      "synth bass"
+    ],
+    "control_delta": "Timbre: bright 80s synthwave (sparkly highs)",
+    "prompt": "An 80s synthwave track with a bright cutting sawtooth lead melody soaring over a punchy analog synth bass. A gated reverb snare cracks on the backbeat, drenched in that iconic 80s ambience. The high end sparkles with shimmering arpeggios and the overall vibe is nostalgic and neon-lit. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0019/seed0001/s00/raw.wav",
+    "mbd_wav": "samples/p0019/seed0001/s00/mbd.wav",
+    "loudness_wav": "samples/p0019/seed0001/s00/loudness.wav",
+    "spec_png": "samples/p0019/seed0001/s00/spec_mel.png"
+  }
+}
