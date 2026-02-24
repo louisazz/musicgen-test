@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0003",
+  "sample_id": "p0003_seed0002_s00",
+  "prompt": "An intimate jazz piano trio playing in a small club. The piano comps mellow chords with a straight eighth-note feel, no swing. A deep upright bass anchors the harmony while soft brush drums keep a steady, even pulse. Relaxed and contemplative mood. Instrumental, no vocals.",
+  "seed": 2,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0003",
+    "pair_id": "pair02",
+    "variant": "A",
+    "control_axis": "rhythm",
+    "genre": "jazz trio",
+    "bpm": 120,
+    "meter": "4/4",
+    "key": "F major",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "upright bass",
+      "brush drums",
+      "piano"
+    ],
+    "control_delta": "Rhythm: straight 8th feel (no swing)",
+    "prompt": "An intimate jazz piano trio playing in a small club. The piano comps mellow chords with a straight eighth-note feel, no swing. A deep upright bass anchors the harmony while soft brush drums keep a steady, even pulse. Relaxed and contemplative mood. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0003/seed0002/s00/raw.wav",
+    "mbd_wav": "samples/p0003/seed0002/s00/mbd.wav",
+    "loudness_wav": "samples/p0003/seed0002/s00/loudness.wav",
+    "spec_png": "samples/p0003/seed0002/s00/spec_mel.png"
+  }
+}
