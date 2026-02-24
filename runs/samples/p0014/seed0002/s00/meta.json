@@ -1,0 +1,51 @@
+{
+  "prompt_id": "p0014",
+  "sample_id": "p0014_seed0002_s00",
+  "prompt": "A hard-hitting trap beat with a deep booming 808 bass and a crisp layered snare. The hi-hats burst into rapid triplet rolls and stuttering patterns, creating a bouncy, head-nodding feel. A dark moody synth lead floats over the top with an ominous atmosphere. Aggressive and energetic. Instrumental, no vocals.",
+  "seed": 2,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0014",
+    "pair_id": "pair07",
+    "variant": "B",
+    "control_axis": "rhythm",
+    "genre": "trap",
+    "bpm": 140,
+    "meter": "4/4",
+    "key": "F# minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "808 bass",
+      "snare",
+      "hi-hats (triplets)",
+      "dark synth"
+    ],
+    "control_delta": "Rhythm: include prominent triplet hi-hat rolls and stutters (same tempo/key)",
+    "prompt": "A hard-hitting trap beat with a deep booming 808 bass and a crisp layered snare. The hi-hats burst into rapid triplet rolls and stuttering patterns, creating a bouncy, head-nodding feel. A dark moody synth lead floats over the top with an ominous atmosphere. Aggressive and energetic. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0014/seed0002/s00/raw.wav",
+    "mbd_wav": "samples/p0014/seed0002/s00/mbd.wav",
+    "loudness_wav": "samples/p0014/seed0002/s00/loudness.wav",
+    "spec_png": "samples/p0014/seed0002/s00/spec_mel.png"
+  }
+}
