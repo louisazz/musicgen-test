@@ -1,0 +1,50 @@
+{
+  "prompt_id": "p0002",
+  "sample_id": "p0002_seed0000_s00",
+  "prompt": "A deep house groove driven by a four-on-the-floor kick from a live drum kit with brushy hi-hats. An acoustic double bass provides the low end with a woody, resonant tone, while a Rhodes electric piano plays jazzy chords. Warm room ambience, intimate and organic feel. Instrumental, no vocals.",
+  "seed": 0,
+  "sample_idx": 0,
+  "duration": 30.0,
+  "sample_rate": 32000,
+  "model_variant": "large",
+  "hf_model_id": "facebook/musicgen-large",
+  "backend": "audiocraft",
+  "use_mbd": true,
+  "generation_params": {
+    "use_sampling": true,
+    "top_k": 250,
+    "top_p": 0.0,
+    "temperature": 1.0,
+    "cfg_coef": 3.0
+  },
+  "prompt_fields": {
+    "id": "p0002",
+    "pair_id": "pair01",
+    "variant": "B",
+    "control_axis": "timbre",
+    "genre": "house",
+    "bpm": 124,
+    "meter": "4/4",
+    "key": "A minor",
+    "no_vocals": true,
+    "duration": 30.0,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "instruments": [
+      "acoustic double bass",
+      "live drum kit",
+      "electric piano"
+    ],
+    "control_delta": "Timbre swap: replace synth bass/drum machine with acoustic double bass + live kit + electric piano",
+    "prompt": "A deep house groove driven by a four-on-the-floor kick from a live drum kit with brushy hi-hats. An acoustic double bass provides the low end with a woody, resonant tone, while a Rhodes electric piano plays jazzy chords. Warm room ambience, intimate and organic feel. Instrumental, no vocals."
+  },
+  "paths": {
+    "raw_wav": "samples/p0002/seed0000/s00/raw.wav",
+    "mbd_wav": "samples/p0002/seed0000/s00/mbd.wav",
+    "loudness_wav": "samples/p0002/seed0000/s00/loudness.wav",
+    "spec_png": "samples/p0002/seed0000/s00/spec_mel.png"
+  }
+}
